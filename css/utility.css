@@ -3,9 +3,21 @@
     color: #ffffff;
 }
 
+.text-blue {
+    color: #0084fd;
+}
+
+.text-grey {
+    color: #5a6e7f;
+}
+
 /* #endregion */
 
 /* #region PADDING */
+.pt-25 {
+    padding-top: 2.5rem;
+}
+
 .py-075 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -16,11 +28,25 @@
     padding-bottom: 1.25rem;
 }
 
+.py-25 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
 .px-1 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
+.px-15 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.px-325 {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
 
 /*  #endregion */
 
@@ -29,10 +55,15 @@
     margin: 0 auto;
 }
 
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /*  #endregion */
 
 /* #region BACKGROUND */
-.bg-cyan {
+.bg-blue {
     background-color: #0084fd;
 }
 

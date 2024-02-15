@@ -19,11 +19,30 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* #endregion */
 
 /* #region TYPOGRAPHY */
-body {
+body,
+.btn {
     font-family: "PT Sans", sans-serif;
+}
+
+.intro .card>i {
+    font-size: 4rem;
+}
+
+.btn {
+    font-size: 1rem;
+}
+
+.demo-left .btn,
+.intro p {
+    font-weight: 700;
 }
 
 /* #endregion */
@@ -35,11 +54,11 @@ body {
 }
 
 .row {
-    padding
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
 }
 
 .card {
-    margin-bottom: 1.5rem;
     border-radius: 1rem;
 }
 
@@ -49,6 +68,7 @@ body {
 .btn {
     border: none;
     border-radius: 1.25rem;
+    cursor: pointer;
 }
 
 /* #endregion */
@@ -85,6 +105,19 @@ header {
 
 .intro .col:first-child {
     flex-grow: 1;
+}
+
+.intro .col:not(#not-center) {
+    text-align: center;
+}
+
+.intro [class^=demo] {
+    width: 50%;
+}
+
+.intro .demo-right {
+    padding-top: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 /* #endregion */
