@@ -5,16 +5,39 @@
 
 /* #endregion */
 
-/* #region SPACING*/
+/* #region PADDING */
+.py-075 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.py-125 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/*  #endregion */
+
+/* #region MARGIN */
 .mx-auto {
     margin: 0 auto;
 }
 
-/* #endregion */
+/*  #endregion */
 
 /* #region BACKGROUND */
 .bg-cyan {
     background-color: #0084fd;
+}
+
+.bg-white {
+    background-color: #ffffff;
 }
 
 /* #endregion */
@@ -29,6 +52,10 @@
 /* #region FLEX*/
 .justify-content-between {
     justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 /* #endregion */

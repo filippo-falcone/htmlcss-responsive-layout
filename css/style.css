@@ -1,6 +1,6 @@
+/* #region RESET */
 @import url(utility.css);
 
-/* #region RESET */
 * {
     margin: 0;
     padding: 0;
@@ -14,17 +14,36 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* #endregion */
 
 /* #region LAYOUT */
 .container-xl {
     max-width: 1140px;
+    padding: 0 1.25rem;
+}
+
+/* #endregion */
+
+/* #region BUTTON */
+.btn {
+    border: none;
+    border-radius: 1.25rem;
 }
 
 /* #endregion */
 
 /* #region HEADER */
-header .fa-solid.fa-bars {
+
+
+.header-left li {
+    padding-right: 2rem;
+}
+
+.header-right .fa-solid.fa-bars {
     display: none;
 }
 
@@ -34,11 +53,11 @@ header .fa-solid.fa-bars {
 
 /* #region TABLET MAX 992PX */
 @media screen and (max-width:992px) {
-    header .fa-solid.fa-bars {
+    .header-right .fa-solid.fa-bars {
         display: block
     }
 
-    .desktop-header {
+    .desktop-only {
         display: none;
     }
 }
