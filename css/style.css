@@ -1,5 +1,6 @@
-/* #region RESET */
 @import url(utility.css);
+
+/* #region RESET */
 
 * {
     margin: 0;
@@ -20,10 +21,26 @@ ul {
 
 /* #endregion */
 
+/* #region TYPOGRAPHY */
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+/* #endregion */
+
 /* #region LAYOUT */
 .container-xl {
     max-width: 1140px;
     padding: 0 1.25rem;
+}
+
+.row {
+    padding
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
 }
 
 /* #endregion */
@@ -37,15 +54,40 @@ ul {
 /* #endregion */
 
 /* #region HEADER */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
-
-.header-left li {
+.header-right li {
     padding-right: 2rem;
 }
 
 .header-right .fa-solid.fa-bars {
     display: none;
 }
+
+/* #endregion */
+
+/* #region MAIN */
+
+/* #region INTRO */
+.intro {
+    padding-top: 3.125rem;
+    padding-bottom: 6.5rem;
+}
+
+.intro .col {
+    width: calc(100% / 3);
+}
+
+.intro .col:first-child {
+    flex-grow: 1;
+}
+
+/* #endregion */
 
 /* #endregion */
 
@@ -59,6 +101,19 @@ ul {
 
     .desktop-only {
         display: none;
+    }
+}
+
+/* #endregion */
+
+/* #region MOBILE MAX 768PX */
+@media screen and (max-width:768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .intro .col {
+        width: 100%;
     }
 }
 
