@@ -1,0 +1,34 @@
+/* #region TEXT */
+.text-white {
+    color: #ffffff;
+}
+
+/* #endregion */
+
+/* #region SPACING*/
+.mx-auto {
+    margin: 0 auto;
+}
+
+/* #endregion */
+
+/* #region BACKGROUND */
+.bg-cyan {
+    background-color: #0084fd;
+}
+
+/* #endregion */
+
+/* #region DISPLAY */
+.d-flex {
+    display: flex;
+}
+
+/* #endregion */
+
+/* #region FLEX*/
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* #endregion */

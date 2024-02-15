@@ -1,0 +1,48 @@
+@import url(utility.css);
+
+/* #region RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion */
+
+/* #region GENERAL */
+img {
+    max-width: 100%;
+}
+
+/* #endregion */
+
+/* #region LAYOUT */
+.container-xl {
+    max-width: 1140px;
+}
+
+/* #endregion */
+
+/* #region HEADER */
+header .fa-solid.fa-bars {
+    display: none;
+}
+
+/* #endregion */
+
+/* #region RESPONSIVE */
+
+/* #region TABLET MAX 992PX */
+@media screen and (max-width:992px) {
+    header .fa-solid.fa-bars {
+        display: block
+    }
+
+    .desktop-header {
+        display: none;
+    }
+}
+
+/* #endregion */
+
+/* #endregion */
