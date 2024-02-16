@@ -184,6 +184,18 @@ header {
 
 /* #endregion */
 
+/* #region BENEFITS */
+.benefits .col {
+    width: calc(100% / 3);
+    margin-bottom: 1.5rem;
+}
+
+.benefits .container-xl>h1 {
+    margin-bottom: 4rem;
+}
+
+/* #endregion */
+
 /* #endregion */
 
 /* #region RESPONSIVE */
@@ -231,10 +243,14 @@ header {
         max-width: 100%;
     }
 
-    h1 {
-        font-size: 2rem;
+    .benefits .col {
+        width: 50%;
     }
 
+    .benefits .col:nth-child(5),
+    .benefits .col:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /* #endregion */
@@ -245,7 +261,8 @@ header {
         flex-direction: column;
     }
 
-    .intro .col {
+    .intro .col,
+    .benefits .col {
         width: 100%;
     }
 
@@ -276,6 +293,15 @@ header {
 
     .testimonials .card-right {
         width: 100%;
+    }
+
+    .testimonials h1,
+    .benefits .container-xl>h1 {
+        font-size: 2.125rem;
+    }
+
+    .benefits .col:nth-child(5) {
+        margin-bottom: 1.5rem;
     }
 }
 
