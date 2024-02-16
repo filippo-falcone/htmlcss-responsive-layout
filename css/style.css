@@ -65,6 +65,19 @@ h1 {
     font-size: 0.75rem;
 }
 
+.get-started h2 {
+    font-size: 2rem;
+}
+
+.get-started h1 {
+    font-size: 4rem;
+}
+
+.get-started div {
+    font-size: 0.75rem;
+}
+
+
 /* #endregion */
 
 /* #region LAYOUT */
@@ -233,12 +246,13 @@ header {
 }
 
 .about-us .about-right {
-    width: 200px;
-    height: 200px;
+    width: 30%;
 }
 
 .about-us .about-img {
     position: relative;
+    height: 200px;
+    width: 200px;
 }
 
 .about-us .about-img img {
@@ -252,6 +266,17 @@ header {
 }
 
 /* #endregion */
+
+/* #region GET STARTED */
+
+/* #endregion */
+.get-started h2 {
+    margin-top: 1rem;
+}
+
+.get-started .btn {
+    border-radius: 3rem;
+}
 
 /* #endregion */
 
