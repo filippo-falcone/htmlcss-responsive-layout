@@ -1,7 +1,6 @@
 @import url(utility.css);
 
 /* #region RESET */
-
 * {
     margin: 0;
     padding: 0;
@@ -58,12 +57,33 @@ h1 {
     font-weight: 700;
 }
 
+.about-us .about-right p {
+    font-size: 1.5rem;
+}
+
+.about-us .about-right .btn {
+    font-size: 0.75rem;
+}
+
 /* #endregion */
 
 /* #region LAYOUT */
+.container-xl,
+.container-l,
+.container-s {
+    padding: 0 1.5rem;
+}
+
 .container-xl {
     max-width: 1140px;
-    padding: 0 1.5rem;
+}
+
+.container-l {
+    max-width: 960px;
+}
+
+.container-s {
+    max-width: 540px;
 }
 
 .row {
@@ -199,6 +219,40 @@ header {
 
 /* #endregion */
 
+/* #region ABOUT US */
+.about-us .about-fleft {
+    line-height: 2;
+}
+
+.about-us .container-l h1 {
+    margin-bottom: 2rem;
+}
+
+.about-us .about-left {
+    width: 70%;
+}
+
+.about-us .about-right {
+    width: 200px;
+    height: 200px;
+}
+
+.about-us .about-img {
+    position: relative;
+}
+
+.about-us .about-img img {
+    border-radius: 50rem;
+}
+
+.about-us .about-img h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* #endregion */
+
 /* #endregion */
 
 /* #region RESPONSIVE */
@@ -254,6 +308,10 @@ header {
     .benefits .col:last-child {
         margin-bottom: 0;
     }
+
+    .about-us .container-l {
+        max-width: 720px;
+    }
 }
 
 /* #endregion */
@@ -265,7 +323,8 @@ header {
     }
 
     .intro .col,
-    .benefits .col {
+    .benefits .col,
+    .about-us .col {
         width: 100%;
     }
 
@@ -305,6 +364,12 @@ header {
 
     .benefits .col:nth-child(5) {
         margin-bottom: 1.5rem;
+    }
+
+    .about-us .about-img {
+        width: 150px;
+        height: 150px;
+        margin: 1.75rem 0;
     }
 }
 
