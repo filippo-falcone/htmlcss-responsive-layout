@@ -154,7 +154,6 @@ header {
 
     .intro .demo-right {
         align-self: flex-start;
-        padding: 0;
     }
 
     .intro .demo-left {
@@ -180,10 +179,11 @@ header {
 
     .intro .demo-right {
         width: 100%;
+        margin: 0 auto;
     }
 
     .intro .demo-right img {
-        max-width: 100%;
+        max-width: 250px;
     }
 }
 
