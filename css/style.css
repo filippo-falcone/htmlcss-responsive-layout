@@ -153,7 +153,7 @@ header {
     }
 
     .intro .demo-right {
-        align-self: center;
+        align-self: flex-start;
         padding: 0;
     }
 
