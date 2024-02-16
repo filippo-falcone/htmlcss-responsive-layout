@@ -123,11 +123,14 @@ header {
     width: 50%;
 }
 
-.intro .demo-right {
-    padding-top: 4.5rem;
-    padding-right: 4.5rem;
-    align-self: flex-end;
+.intro .card.d-flex {
+    align-items: flex-end;
 }
+
+.intro .demo-right img {
+    max-width: 250px;
+}
+
 
 /* #endregion */
 
