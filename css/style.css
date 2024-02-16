@@ -54,12 +54,16 @@ body,
 /* #region LAYOUT */
 .container-xl {
     max-width: 1140px;
-    padding: 0 1.25rem;
+    padding: 0 1.5rem;
 }
 
 .row {
+    margin: 0 -0.75rem;
     margin-bottom: 1.5rem;
-    gap: 1.5rem;
+}
+
+.col {
+    padding: 0 0.75rem;
 }
 
 .card {
@@ -111,7 +115,7 @@ header {
     width: calc(100% / 3);
 }
 
-.intro .col:first-child {
+.intro .col#not-center {
     flex-grow: 1;
 }
 
@@ -156,7 +160,7 @@ header {
         align-self: flex-start;
     }
 
-    .intro .demo-left {
+    .intro [class^=demo] {
         width: 100%;
     }
 
@@ -177,14 +181,14 @@ header {
         width: 100%;
     }
 
-    .intro .demo-right {
-        width: 100%;
-        margin: 0 auto;
+    .intro .col:not(:last-child) {
+        padding-bottom: 1.5rem;
     }
 
     .intro .demo-right img {
-        max-width: 250px;
+        margin: 0 auto;
     }
+
 }
 
 /* #endregion */
