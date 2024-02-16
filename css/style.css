@@ -135,6 +135,22 @@ header {
     .desktop-only {
         display: none;
     }
+
+    .intro .card.d-flex {
+        flex-direction: column;
+    }
+
+    .intro .demo-right {
+        padding: 0;
+    }
+
+    .intro .demo-left {
+        width: 100%;
+    }
+
+    .intro .btn {
+        margin-bottom: 2.5rem;
+    }
 }
 
 /* #endregion */
@@ -146,6 +162,10 @@ header {
     }
 
     .intro .col {
+        width: 100%;
+    }
+
+    .intro .demo-right {
         width: 100%;
     }
 }
