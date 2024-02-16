@@ -144,6 +144,10 @@
     margin-top: 2rem;
 }
 
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
 .ml-35 {
     margin-left: 3.5rem;
 }
@@ -212,6 +216,10 @@
 
 .bg-lille {
     background-color: #9792e4;
+}
+
+.bg-black {
+    background-color: #333333;
 }
 
 /* #endregion */
