@@ -69,7 +69,6 @@ h1 {
 .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-    margin-bottom: 1.5rem;
 }
 
 .col {
@@ -115,6 +114,10 @@ header {
 /* #region MAIN */
 
 /* #region INTRO */
+.intro .row {
+    margin-bottom: 1.5rem;
+}
+
 .intro .col {
     width: calc(100% / 3);
 }
