@@ -123,6 +123,7 @@ header {
 .intro .demo-right {
     padding-top: 4.5rem;
     padding-right: 4.5rem;
+    align-self: flex-end;
 }
 
 /* #endregion */
