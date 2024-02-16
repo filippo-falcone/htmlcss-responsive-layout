@@ -85,7 +85,7 @@ header {
     padding-right: 2rem;
 }
 
-.header-right .fa-solid.fa-bars {
+.mobile-only {
     display: none;
 }
 
@@ -128,7 +128,7 @@ header {
 
 /* #region TABLET MAX 992PX */
 @media screen and (max-width:992px) {
-    .header-right .fa-solid.fa-bars {
+    .mobile-only {
         display: block
     }
 
