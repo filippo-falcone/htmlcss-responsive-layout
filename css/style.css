@@ -123,8 +123,8 @@ header {
     width: 50%;
 }
 
-.intro .card.d-flex {
-    align-items: flex-end;
+.intro .demo-right {
+    align-self: flex-end;
 }
 
 .intro .demo-right img {
@@ -153,6 +153,7 @@ header {
     }
 
     .intro .demo-right {
+        align-self: center;
         padding: 0;
     }
 
