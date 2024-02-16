@@ -11,6 +11,11 @@
 /* #endregion */
 
 /* #region GENERAL */
+section {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -58,7 +63,8 @@ body,
 }
 
 .row {
-    margin: 0 -0.75rem;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
     margin-bottom: 1.5rem;
 }
 
@@ -68,7 +74,6 @@ body,
 
 .card {
     height: 100%;
-    border-radius: 1rem;
 }
 
 /* #endregion */
@@ -106,21 +111,12 @@ header {
 /* #region MAIN */
 
 /* #region INTRO */
-.intro {
-    padding-top: 3.125rem;
-    padding-bottom: 6.5rem;
-}
-
 .intro .col {
     width: calc(100% / 3);
 }
 
 .intro .col#not-center {
     flex-grow: 1;
-}
-
-.intro .col:not(#not-center) {
-    text-align: center;
 }
 
 .intro [class^=demo] {
@@ -135,6 +131,25 @@ header {
     max-width: 250px;
 }
 
+/* #endregion */
+
+/* #region PLANNING */
+.planning .row {
+    margin-bottom: 0;
+}
+
+.planning .col {
+    width: 35%;
+}
+
+.planning .card img {
+    max-width: 200px;
+}
+
+.planning .btn {
+    padding: 0.75rem 0.90rem;
+    border-radius: 50rem;
+}
 
 /* #endregion */
 
@@ -167,6 +182,23 @@ header {
     .intro .btn {
         margin-bottom: 2.5rem;
     }
+
+    .planning .row {
+        flex-direction: column;
+    }
+
+    .planning .col {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+
+    .planning h2 {
+        font-size: 4.5rem;
+    }
+
+    .planning .card img {
+        max-width: 100%;
+    }
 }
 
 /* #endregion */
@@ -189,6 +221,9 @@ header {
         margin: 0 auto;
     }
 
+    .planning h2 {
+        font-size: 2rem;
+    }
 }
 
 /* #endregion */
