@@ -74,6 +74,9 @@ body,
     border: none;
     border-radius: 1.25rem;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 /* #endregion */
