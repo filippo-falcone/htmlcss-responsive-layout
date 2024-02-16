@@ -41,6 +41,10 @@ body,
     font-family: "PT Sans", sans-serif;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 .intro .card>i {
     font-size: 4rem;
 }
@@ -153,6 +157,33 @@ header {
 
 /* #endregion */
 
+/* #region TESTIMONIALS */
+.testimonials-text {
+    margin-bottom: 2.5rem;
+}
+
+.testimonials .card:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.testimonials .card-left {
+    width: 200px;
+    height: 200px;
+    border-radius: 50rem;
+    overflow: hidden;
+}
+
+.testimonials .card-left img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials .card-right {
+    width: 70%;
+}
+
+/* #endregion */
+
 /* #endregion */
 
 /* #region RESPONSIVE */
@@ -199,6 +230,11 @@ header {
     .planning .card img {
         max-width: 100%;
     }
+
+    h1 {
+        font-size: 2rem;
+    }
+
 }
 
 /* #endregion */
@@ -223,6 +259,23 @@ header {
 
     .planning h2 {
         font-size: 2rem;
+    }
+
+    .testimonials {
+        font-size: 1.35rem;
+    }
+
+    .testimonials .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonials .card-left {
+        margin-bottom: 1.5rem;
+    }
+
+    .testimonials .card-right {
+        width: 100%;
     }
 }
 

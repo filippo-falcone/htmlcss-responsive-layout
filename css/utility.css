@@ -35,8 +35,16 @@
     color: #5a6e7f;
 }
 
+.text-lille {
+    color: #9792e4;
+}
+
 .text-align-center {
     text-align: center;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase;
 }
 
 /* #endregion */
@@ -96,6 +104,11 @@
     padding-right: 3.25rem;
 }
 
+.px-35 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
 /*  #endregion */
 
 /* #region MARGIN */
@@ -105,6 +118,10 @@
 
 .ml-4 {
     margin-left: 4rem;
+}
+
+.mb-225 {
+    margin-bottom: 2.25rem;
 }
 
 .mx-auto {
@@ -119,6 +136,11 @@
 .my-2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.my-275 {
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
 }
 
 /*  #endregion */
@@ -185,8 +207,16 @@
     align-self: flex-end;
 }
 
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
 .align-self-center {
     align-self: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 /* #endregion */
