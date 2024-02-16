@@ -27,6 +27,10 @@ a {
 /* #endregion */
 
 /* #region TYPOGRAPHY */
+body {
+    line-height: 1.5;
+}
+
 body,
 .btn {
     font-family: "PT Sans", sans-serif;
