@@ -59,6 +59,7 @@ body,
 }
 
 .card {
+    height: 100%;
     border-radius: 1rem;
 }
 
